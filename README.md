@@ -18,9 +18,9 @@ sqlArchemy가 지원을 하지 않고, 패쇠망에서 각기 다른 데이터 �
 
 ## Setting
 
-1. _VSCODE_ 에서 `AIXAC_MSSQLtoTIBERO` 프로젝트 폴더 열고 `Terminal - New Terminal` 메뉴로 터미널 접속
+1. _VSCODE_ 에서 `PYTHON-ODBC` 프로젝트 폴더 열고 `Terminal - New Terminal` 메뉴로 터미널 접속
 
-   - `D:\AIXAC_MSSQLtoTIBERO Project` 프로젝트 폴더 생성 후 진행
+   - `D:\PYTHON-ODBC Project` 프로젝트 폴더 생성 후 진행
 
 2. python 가상환경 생성
 
@@ -43,12 +43,12 @@ sqlArchemy가 지원을 하지 않고, 패쇠망에서 각기 다른 데이터 �
 pyinstaller --noconfirm --clean ^
 --distpath . ^
 --onedir ^
--n AIXAC_MSSQLtoTIBERO_v0.1.0 ^
+-n PYTHON_ODBC_v0.1.0 ^
 --noconsole ^
 --win-private-assemblies ^
 --paths ./venv/Lib/site-packages ^
 --icon=logo.ico ^
---key 1234567890abcdef ^
+--key asdfqwer1234 ^
 run.py
 ```
 
