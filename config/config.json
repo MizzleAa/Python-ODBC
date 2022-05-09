@@ -1,0 +1,35 @@
+{
+    "Settings": {
+        "logDir": "D:/AIXAC/MSSQLtoTIBERO/Log",
+        "logName": "MSSQLtoTIBERO",
+        "loggingIP": "127.0.0.1",
+        "loggingPort": 9022,
+        "groupName": "ECCC"
+    },
+    "time": {
+        "DELETE": "18:00",
+        "KCS_ITEM_INFO": "19:00",
+        "TB_AIX_MNG001M": "19:00",
+        "TB_AIX_AI002M": "19:00",
+        "TB_AIX_AI003M": "1",
+        "TB_AIX_MNT001M": "1"
+    },
+    "tibero": {
+        "option": "dsn",
+        "ip": "192.168.0.13",
+        "port": "18229",
+        "dsn": "Tibero6",
+        "database": "AIXAC",
+        "id": "aixac",
+        "pwd": "aixac"
+    },
+    "mssql": {
+        "option": "url",
+        "driver": "{ODBC Driver 17 for SQL Server}",
+        "ip": "192.168.0.213",
+        "port": "11433",
+        "database": "aixac",
+        "username": "aixac",
+        "password": "!@#45QWErt"
+    }
+}
